@@ -1,0 +1,15 @@
+Source: toolbox-linux
+Priority: optional
+Maintainer: Matthias Kruk <m@m10k.eu>
+Build-Depends: debhelper (>= 9), make, coreutils, findutils
+Standards-Version: 3.9.8
+Section: shells
+Homepage: https://m10k.eu/toolbox.html
+
+Package: toolbox-linux
+Section: shells
+Architecture: all
+Depends: bash (>= 4.0), toolbox, coreutils, grep, net-tools, wireless-tools, iproute2, ${misc:Depends}
+Description: Linux modules for toolbox
+ This package provides various modules that depend on Linux-specific
+ APIs, such as power management and network interfaces.

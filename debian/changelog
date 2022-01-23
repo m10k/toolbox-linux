@@ -1,0 +1,8 @@
+toolbox-linux (0.1.0-1) unstable; urgency=medium
+
+  * New modules
+    - acpi/ac: Functions for querying power supply information
+    - acpi/battery: Functions for querying battery information
+    - net/iface: Functions for querying network interfaces
+
+ -- Matthias Kruk <m@m10k.eu>  Mon, 24 Jan 2022 00:33:26 +0900
